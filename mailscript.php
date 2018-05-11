@@ -7,7 +7,7 @@ $email=$_POST['email'];
 $subject=$_POST['subject'];
 $message=$_POST['message'];
 
-mail ( $to, $name, $email, $subject, $message, "From:".$from);
+mail ($to, $name, $email, $subject, $message, "From:".$from);
 
 Print "Your message has been sent";
 
