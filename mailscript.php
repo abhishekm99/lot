@@ -1,6 +1,6 @@
 <?php
 
-$from="noreply@gmail.com";
+$from="abhishekmalakar4@gmail.com";
 $to="abhishekmalakar4@gmail.com";
 $name=$_POST['name'];
 $email=$_POST['email'];
