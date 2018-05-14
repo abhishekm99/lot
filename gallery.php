@@ -88,15 +88,16 @@
           </div>
         </div>
       </nav>
+<div class="container gallery-container">
+    <div class="tz-gallery">
+
+        <div class="row">
 <?php
 		$dir = glob('sm/{*.jpg,*.png}',GLOB_BRACE);
 		foreach($dir as $value)
 		{
  ?> 
-<div class="container gallery-container">
-    <div class="tz-gallery">
 
-        <div class="row">
 
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
@@ -110,14 +111,15 @@
                 </div>
             </div>
            
-        </div>
+       
+<?php
+		}
+?>
+ </div>
 
     </div>
 
 </div>
-<?php
-		}
-?>
  <footer class="probootstrap-footer probootstrap-bg">
         <div class="container">
           <div class="row">
