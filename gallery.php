@@ -89,7 +89,7 @@
         </div>
       </nav>
 <?php
-		$dir = glob('sm/(*.jpg,*.png)',GLOB_BRACE);
+		$dir = glob('sm/{*.jpg,*.png}',GLOB_BRACE);
 		print_r($dir);
 		foreach($dir as $value)
 		{
