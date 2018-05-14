@@ -93,7 +93,7 @@
 		foreach($dir as $value)
 		{
  ?> 
-<img src="<?php echo $value;?>" alt="Park">
+<img src="<?php echo $value ;?>" alt="Park">
 <div class="container gallery-container">
     <div class="tz-gallery">
 
@@ -101,8 +101,8 @@
 
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
-                    <a class="lightbox" href="../images/park.jpg">
-                        <img src="<?php echo $value;?>" alt="Park">
+                    <a class="lightbox" href="<?php echo $value;?>">
+                        <img src="<?php echo $value ;?>" alt="Park">
                     </a>
                     <div class="caption">
                         <h3></h3>
