@@ -68,7 +68,7 @@
                 <a href="#" data-toggle="dropdown" class="dropdown-toggle">Pages</a>
                 <ul class="dropdown-menu">
                   <li><a href="about.html">About Us</a></li>
-                  <!--<li><a href="sm.html">Gallery</a></li>-->
+                  <li><a href="gallery.php">Gallery</a></li>
                   <li><a href="news.html">News</a></li>
                   <!--<li><a href="gallery.html">Gallery</a></li>
                   <li class="dropdown-submenu dropdown">
