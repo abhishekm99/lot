@@ -90,11 +90,9 @@
       </nav>
 <?php
 		$dir = glob('sm/{*.jpg,*.png}',GLOB_BRACE);
-		print_r($dir);
 		foreach($dir as $value)
 		{
  ?> 
-<img src="<?php echo $value ;?>" alt="Park">
 <div class="container gallery-container">
     <div class="tz-gallery">
 
