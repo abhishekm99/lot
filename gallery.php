@@ -116,6 +116,9 @@
     </div>
 
 </div>
+<?php
+		}
+?>
  <footer class="probootstrap-footer probootstrap-bg">
         <div class="container">
           <div class="row">
