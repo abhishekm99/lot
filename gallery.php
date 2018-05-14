@@ -88,9 +88,9 @@
           </div>
         </div>
       </nav>
-<main>
 <?php
 		$dir = glob('sm/(*.jpg,*.png)',GLOB_BRACE);
+		print_r($dir);
 		foreach($dir as $value)
 		{
  ?> 
@@ -120,7 +120,6 @@
 <?php
 		}
 ?>
-</main>
  <footer class="probootstrap-footer probootstrap-bg">
         <div class="container">
           <div class="row">
