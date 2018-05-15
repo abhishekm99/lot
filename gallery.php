@@ -61,7 +61,7 @@
 
           <div id="navbar-collapse" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="index.html">Home</a></li>
               <li id="sm"><a href="sm.html">Summit Manipal</a></li>
               <li id="yp"><a href="yp.html">Youth Parliament</a></li>
               <li id="cam" ><a href="cam.html">Cambiar</a></li>
