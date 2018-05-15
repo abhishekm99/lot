@@ -17,16 +17,7 @@
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="css/custom.css">
 	<link rel="icon" href="img/fav.png">
-	<style>
-		img {
-				opacity: 1;
-				transition: opacity 0.3s;
-			}
 
-		img[data-src] {
-				opacity: 0;
-					}
-	</style>
 
 </head>
 <body>
@@ -112,7 +103,7 @@
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
                     <a class="lightbox" href="<?php echo $value;?>">
-                        <img data-src="<?php echo $value ;?>" alt="Park">
+                        <img src="<?php echo $value ;?>" alt="Park">
                     </a>
                     <div class="caption">
                         <h3></h3>
@@ -179,16 +170,5 @@
 <script src="js/scripts.min.js"></script>
     <script src="js/main.min.js"></script>
     <script src="js/custom.js"></script>
-<script>
-[].forEach.call(document.querySelectorAll('noscript'), function(noscript) {
-	var img = new Image();
-	img.setAttribute('data-src', '');
-	img.parentNode.insertBefore(img, noscript);
-	img.onload = function() {
-		img.removeAttribute('data-src');
-	};
-	img.src = noscript.getAttribute('data-src');
-});
-</script>
 </body>
 </html>
