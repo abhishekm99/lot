@@ -105,10 +105,6 @@
                     <a class="lightbox" href="<?php echo $value;?>">
                         <img src="<?php echo $value ;?>" alt="Park">
                     </a>
-                    <div class="caption">
-                        <h3></h3>
-                        <p></p>
-                    </div>
                 </div>
             </div>
            
