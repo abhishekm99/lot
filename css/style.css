@@ -1744,7 +1744,7 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-service-2 .text {
-  width: 60%;
+  width: 100%;
 }
 
 @media screen and (max-width: 480px) {
