@@ -101,7 +101,7 @@
 
 
             <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
+                <div class="thumbnail probootstrap-animate">
                     <a class="lightbox" href="<?php echo $value;?>">
                         <img src="<?php echo $value ;?>" alt="Park">
                     </a>
