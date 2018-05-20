@@ -24,7 +24,7 @@ Comments:	'.$_POST['comments'].'
     
     // Authentication  
     $mail->Username   = "abhishekmalakar4@gmail.com"; // Your full Gmail address
-    $mail->Password   = "43vector1999"; // Your Gmail password
+    $mail->Password   = ""; // Your Gmail password
       
     // Compose
     $mail->SetFrom($_POST['emailid'], $_POST['fullname']);
