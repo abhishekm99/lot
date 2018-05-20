@@ -129,7 +129,7 @@ Comments:	'.$_POST['comments'].'
 
           <div id="navbar-collapse" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="index.html">Home</a></li>
               <li id="sm"><a href="sm.html">Summit Manipal</a></li>
               <li id="yp"><a href="yp.html">Youth Parliament</a></li>
               <li id="cam" ><a href="cam.html">Cambiar</a></li>
@@ -139,6 +139,7 @@ Comments:	'.$_POST['comments'].'
                   <li><a href="about.html">About Us</a></li>
                   <li><a href="gallery.php">Gallery</a></li>
                   <li><a href="news.html">News</a></li>
+				  <li><a href="contact.php">Contact us</a></li>
                   <!--<li><a href="gallery.html">Gallery</a></li>
                   <li class="dropdown-submenu dropdown">
                     <a href="#" data-toggle="dropdown" class="dropdown-toggle"><span>Gallery</span></a>
@@ -152,7 +153,7 @@ Comments:	'.$_POST['comments'].'
                   <!--<li><a href="news.html">News</a></li>-->
                 </ul>
               </li>
-              <li><a href="contact.php">Contact us</a></li>
+              <!--<li><a href="contact.php">Contact us</a></li>-->
             </ul>
           </div>
         </div>
