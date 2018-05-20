@@ -23,8 +23,8 @@ Comments:	'.$_POST['comments'].'
     $mail->Encoding = '7bit';
     
     // Authentication  
-    $mail->Username   = "leaders.manipal@gmail.com"; // Your full Gmail address
-    $mail->Password   = "bestclubever<3"; // Your Gmail password
+    $mail->Username   = "abhishekmalakar4@gmail.com"; // Your full Gmail address
+    $mail->Password   = "43vector1999"; // Your Gmail password
       
     // Compose
     $mail->SetFrom($_POST['emailid'], $_POST['fullname']);
@@ -33,7 +33,7 @@ Comments:	'.$_POST['comments'].'
     $mail->MsgHTML($message);
  
     // Send To  
-    $mail->AddAddress("leaders.manipal@gmail.com", "Contact Form"); // Where to send it - Recipient
+    $mail->AddAddress("abhishekmalakar4@gmail.com", "Contact Form"); // Where to send it - Recipient
     $result = $mail->Send();		// Send!  
 	$message = $result ? '<div class="alert alert-success" role="alert"><strong>Success!</strong>Message Sent Successfully!</div>' : '<div class="alert alert-danger" role="alert"><strong>Error!</strong>There was a problem delivering the message.</div>';  
 
