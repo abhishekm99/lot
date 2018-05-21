@@ -158,7 +158,7 @@ Comments:	'.$_POST['comments'].'
           </div>
         </div>
       </nav>
-	<iframe src='/contact/contactus.php' frameborder='0' width='100%' height='600' ></iframe>
+	<iframe src='/contact/contactform.php' frameborder='0' width='100%' height='600' ></iframe>
 	<footer class="probootstrap-footer probootstrap-bg">
         <div class="container">
           <div class="row">
