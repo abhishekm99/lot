@@ -1,3 +1,13 @@
+<?php
+if(!isset($_GET['page']))
+{
+  header("location: gallery.php?page=1");
+}
+else
+{
+  $page=$_GET['page'];
+}
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -94,8 +104,21 @@
 
         <div class="row">
 <?php
-		$dir = glob('sm/{*.jpg,*.png}',GLOB_BRACE);
-		foreach($dir as $value)
+    class Paginator
+    {
+      private $_conn;
+      private $_limit;
+      private $_page;
+      private $_query;
+      private $_total;
+    }
+    $dir = glob('sm/{*.jpg,*.png}',GLOB_BRACE);
+    $picsperpage=5;
+    $queries=count($dir);
+    $pages=ceil($queries/$picsperpage);
+    $start = (($page - 1)*$picsperpage);
+    $count=0;
+    foreach(array_slice($dir,$start,$picsperpage) as $value)
 		{
  ?> 
 
@@ -110,7 +133,24 @@
            
        
 <?php
-		}
+      }
+    echo '<div class="col-md-6 col-md-offset-4 col-sm-6 col-sm-offset-4 col-xs-6 col-xs-offset-4">';
+    echo '<ul class="pagination" style=" width:100%;">';
+    for($number=1;$number<=$pages;$number++)
+    {
+      if($number==$page)
+      {
+        echo '<li class="active">';
+      }
+      else
+      {
+        echo '<li>';
+      }
+        echo '<a href="?page='.$number.'">'.$number.'</a>';
+      echo '</li>';
+    }
+    echo '</ul>';
+    echo '</div>';
 ?>
  </div>
 
