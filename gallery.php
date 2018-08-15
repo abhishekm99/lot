@@ -113,7 +113,7 @@ else
       private $_total;
     }
     $dir = glob('sm/{*.jpg,*.png}',GLOB_BRACE);
-    $picsperpage=5;
+    $picsperpage=6;
     $queries=count($dir);
     $pages=ceil($queries/$picsperpage);
     $start = (($page - 1)*$picsperpage);
