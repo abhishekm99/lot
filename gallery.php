@@ -134,7 +134,7 @@ else
        
 <?php
       }
-    echo '<div class="col-md-6 col-md-offset-4 col-sm-6 col-sm-offset-4 col-xs-6 col-xs-offset-4">';
+    echo '<div class="col-md-6 col-md-offset-4 col-sm-14 col-sm-offset-0 col-xs-14 col-xs-offset-0">';
     echo '<ul class="pagination" style=" width:100%;">';
     for($number=1;$number<=$pages;$number++)
     {
