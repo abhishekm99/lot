@@ -1,1 +1,202 @@
 /* Your custom css code goes here */
+/* Your custom css code goes here */
+.page{
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container-box {
+    margin: 0 auto;
+    width: 350px;
+    height: 300px;
+    position: relative;
+    perspective: 1000px;
+  }
+  .test-secs{
+    height:100%;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.card-img-top{
+    border-radius:5px;
+}
+   
+  .carousel {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    
+  }
+   
+  .itemer {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    background: #000;
+    
+    height: 100%;
+    font-size: 15px;
+    text-color:black;
+    text-align: center;
+    color: #FFF;
+    opacity: 0.95;
+    border-radius: 10px;
+  }
+   
+  .a {
+    transform: rotateY(0deg) translateZ(350px);
+  }
+  .b {
+    transform: rotateY(72deg) translateZ(350px);
+  }
+  .c {
+    transform: rotateY(144deg) translateZ(350px);
+  }
+  .d {
+    transform: rotateY(216deg) translateZ(350px);
+  }
+  .e {
+    transform: rotateY(288deg) translateZ(350px);
+  } 
+   
+  .nexter, .prever {
+    color: #444;
+    position: absolute;
+    top: 100px;
+    padding: 1em 2em;
+    cursor: pointer;
+    background: #CCC;
+    border-radius: 5px;
+    border-top: 1px solid #FFF;
+    box-shadow: 0 5px 0 #999;
+    transition: box-shadow 0.1s, top 0.1s;
+  }
+  .nexter:hover, .prever:hover { color: #000; }
+  .nexter:active, .prever:active {
+    top: 104px;
+    box-shadow: 0 1px 0 #999;
+  }
+  .nexter { right: -5em; }
+  .prever { left: -5em; }
+
+  
+  .next{
+    background-color:black;
+    visibility:hidden;
+}
+.prev{
+  background-color:black;
+  visibility:hidden;
+}
+
+.circle {
+    position: absolute;
+    background: black;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: radial-gradient(circle at 100px 100px, #5cabff, #000);
+  }
+
+  /*Overlay texts*/
+  #overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+  }
+  
+  #text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+  }
+ 
+  /*end of overlay texts*/
+
+@media screen and (max-width: 600px){
+    .nexter{
+        visibility:hidden;
+    }
+    .prever{
+        visibility:hidden;
+    }
+    .next{
+        visibility:visible;
+    }
+    .prev{
+        visibility:visible;
+    }
+    /* Your custom css code goes here */
+.container-box {
+    margin: 0 auto;
+    width: 250px;
+    height: 300px;
+    position: relative;
+    perspective: 1000px;
+  }
+  .test-secs{
+    height:100%;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+   
+  .carousel {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    
+  }
+   
+  .item {
+    display: block;
+    position: absolute;
+    background: #000;
+    width: 250px;
+    height: 100%;
+    font-size: 15px;
+    text-color:black;
+    text-align: center;
+    color: #FFF;
+    opacity: 0.95;
+    border-radius: 10px;
+  }
+   
+  .a {
+    transform: rotateY(0deg) translateZ(250px);
+  }
+  .b {
+    transform: rotateY(72deg) translateZ(250px);
+  }
+  .c {
+    transform: rotateY(144deg) translateZ(250px);
+  }
+  .d {
+    transform: rotateY(216deg) translateZ(250px);
+  }
+  .e {
+    transform: rotateY(288deg) translateZ(250px);
+  } 
+}
