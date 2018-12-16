@@ -134,7 +134,7 @@
 
 @media screen and (max-width: 600px){
     .test-cont{
-        overflow:hidden;
+        overflow-x:hidden;
     }
     .nexter{
         visibility:hidden;
