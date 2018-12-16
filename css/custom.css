@@ -6,7 +6,7 @@
     background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .container-box {
-    margin: 0 auto;
+    margin: 10px auto;
     width: 350px;
     height: 300px;
     position: relative;
@@ -26,6 +26,7 @@
    
   .carousel {
     height: 100%;
+    margin: 0 auto;
     width: 100%;
     position: absolute;
     transform-style: preserve-3d;
@@ -82,7 +83,7 @@
     box-shadow: 0 1px 0 #999;
   }
   .nexter { right: -5em; }
-  .prever { left: -5em; }
+  .prever { left: -4em; }
 
   
   .next{
