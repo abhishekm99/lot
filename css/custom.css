@@ -133,6 +133,9 @@
   /*end of overlay texts*/
 
 @media screen and (max-width: 600px){
+    .test-cont{
+        overflow:hidden;
+    }
     .nexter{
         visibility:hidden;
     }
