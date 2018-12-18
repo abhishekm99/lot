@@ -1,7 +1,11 @@
 jQuery(document).ready(function() {
 	
 	"use strict";
-	// Your custom js code goes here.
+  // Your custom js code goes here.
+  
+  $(function(){
+    $("#navbar").load("nav.html");
+  });
 
 });
 
@@ -36,3 +40,9 @@ $(function() {
   function off() {
 			document.getElementById("overlay").style.display = "none";
   }
+
+  $(document).ready(function(){
+    $("#navbar").load("nav.html");
+  });
+
+ 
