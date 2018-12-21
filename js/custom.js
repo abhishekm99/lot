@@ -3,6 +3,7 @@ jQuery(document).ready(function() {
 	"use strict";
   // Your custom js code goes here.
   
+  
   $(function(){
     $("#navbar").load("nav.html");
   });
@@ -44,5 +45,7 @@ $(function() {
   $(document).ready(function(){
     $("#navbar").load("nav.html");
   });
+
+  
 
  
