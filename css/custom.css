@@ -194,7 +194,7 @@ body{
   .popup {
     margin: 70px auto;
     padding: 20px;
-    background: #fff;
+    background: rgba(0, 0, 0, 0.8);
     border-radius: 5px;
     width: 80%;
     position: relative;
@@ -267,7 +267,7 @@ body{
   .popup {
     margin: 70px auto;
     padding: 20px;
-    background: #fff;
+    background: rgba(0, 0, 0, 0.8);
     border-radius: 5px;
     width: 100%;
     position: relative;
