@@ -257,6 +257,7 @@ body{
     overflow-x: scroll;
     overflow-y: scroll;
     z-index:2;
+    -webkit-overflow-scrolling:touch;
   }
   
   .overlay:target {
