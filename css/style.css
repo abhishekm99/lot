@@ -666,7 +666,7 @@ a:hover, a:focus, a:active {
   background-position: center center;
 }
 
-.probootstrap-hero > .overlay {
+.probootstrap-hero > .overlaying {
   position: absolute;
   top: 0;
   left: 0;
@@ -2598,7 +2598,7 @@ a:hover, a:focus, a:active {
   background-repeat: none;
 }
 
-.flexslider .slides > li.overlay:before {
+.flexslider .slides > li.overlaying:before {
   content: "";
   background: rgba(0, 0, 0, 0.3);
   position: absolute;

@@ -1,5 +1,11 @@
 /* Your custom css code goes here */
 /* Your custom css code goes here */
+.probootstrap-custom-heading{
+  background-attachment: fixed !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
 body{
   overflow: auto !important; 
 }
