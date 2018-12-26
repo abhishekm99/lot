@@ -241,6 +241,10 @@ body{
 
 @media screen and (max-width: 800px){
 
+  .overlaying{
+    background-repeat: no-repeat !important; 
+    background-size: auto !important;
+  }
   .form-class{
     width:auto;
   }
